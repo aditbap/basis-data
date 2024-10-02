@@ -42,7 +42,7 @@ CREATE TABLE perkuliahan (
 );
 
 -- jika drop database maka database/schema akan hilang secara keseluruhan bersama isinya
-DROP DATABASE IF EXISTS akademik;
+DROP DATABASE akademik;
 
 -- bagian insert data
 INSERT INTO dosen (Nip, Nama_Dosen) VALUES ('0429038801', 'Mariana, S.Kom., MMSI.');
