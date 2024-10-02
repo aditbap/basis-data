@@ -1,8 +1,12 @@
+create schema quiz5;
+use quiz5;
+
 CREATE TABLE invoices (
     Total DECIMAL(5,2)
 );
 
-INSERT INTO invoices (Total) VALUES
+INSERT INTO invoices (Total) 
+VALUES
 (1.98),
 (3.96),
 (5.94),
